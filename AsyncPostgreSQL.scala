@@ -22,8 +22,8 @@ object AsyncPostgreSQL {
 
 
     val properties = new Properties()
-    properties.setProperty("bootstrap.servers", "dggdb01-mon:9092,dggdb02-mon:9092,dggdb03-mon:9092")
-    properties.setProperty("zookeeper.connect", "dggdb01-mon:2181,dggdb02-mon:2181,dggdb03-mon:2181")
+    properties.setProperty("bootstrap.servers", "xxxxx01-mon:9092,xxxxx02-mon:9092,xxxxb03-mon:9092")
+    properties.setProperty("zookeeper.connect", "xxxxx01-mon:2181,xxxxx02-mon:2181,xxxxx03-mon:2181")
     properties.setProperty("group.id", "test")
 
     val kafkaConsumer = new FlinkKafkaConsumer[String]("dbmetric", new SimpleStringSchema(), properties)

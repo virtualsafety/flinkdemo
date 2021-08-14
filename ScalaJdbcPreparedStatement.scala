@@ -6,7 +6,7 @@ import java.sql.{Connection, DriverManager,PreparedStatement}
 object ScalaJdbcPreparedStatement {
 
   def main(args: Array[String]) {
-    // connect to the database named "mysql" on the localhost
+    // connect to the database  on the localhost
     val driver = "org.postgresql.Driver"
     val url = "jdbc:postgresql://x.x.x.6x:5432/xxxxdb"
     val username = "xxxx"

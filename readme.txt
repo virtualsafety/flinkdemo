@@ -39,6 +39,8 @@ https://ci.apache.org/projects/flink/flink-docs-release-1.13/docs/dev/serializat
 TypeInformation.of(new TypeHint[JSONObject]{})
 https://alxe1.github.io/chapters/chapter2_5_1.html
 
+https://tracholar.github.io/wiki/tools/flink.html
+
 
 add field to json
 https://nosqlnocry.wordpress.com/2015/04/16/working-with-json-in-scala-using-the-json4s-library-part-one/

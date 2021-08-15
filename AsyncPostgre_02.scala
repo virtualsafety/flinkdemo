@@ -1,5 +1,3 @@
-package com.huawei.flink
-
 import java.util.{Collections, Properties}
 import java.util.concurrent.TimeUnit
 

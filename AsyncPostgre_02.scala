@@ -1,3 +1,8 @@
+/*
+   背景： agent采集每个主机的CPU利用率信息，然后做计算进行窗口计算告警；不用的主机的告警阈值可定制化
+   方案： 从kafka消费json数据，增加threshold字段(默认值85)，然后通过Async IO访问PostgreSQL数据库更新threshold，最后进行窗口计算
+*/
+
 import java.util.{Collections, Properties}
 import java.util.concurrent.TimeUnit
 
